@@ -1,0 +1,11 @@
+reminder_id,contact_id,reminder_type,send_time,status
+R001,1,Training Reminder,09:00,pending
+R002,2,Meeting Alert,10:00,pending
+R003,3,Review Reminder,09:30,pending
+R004,4,Safety Alert,08:00,pending
+R005,5,Finance Alert,11:00,pending
+R006,6,Marketing Brief,10:30,pending
+R007,7,IT Notification,08:30,pending
+R008,8,Policy Update,12:00,pending
+R009,9,Code Review,09:00,pending
+R010,10,Onboarding Alert,10:00,pending
