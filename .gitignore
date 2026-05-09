@@ -1,0 +1,74 @@
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.production
+
+# Allow environment template
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs & Runtime Files
+# =========================
+logs/*.txt
+*.log
+
+# =========================
+# Streamlit Secrets
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / Generated
+# =========================
+graphify-out/
+outputs/
+temp/
+tmp/
+
+# =========================
+# Notebook Checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Local Workspace Files
+# =========================
+.codex/
+agents.md
