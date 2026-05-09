@@ -3,9 +3,9 @@ id,name,email,department,event,event_date,custom_message,send_enabled
 2,Lord,chaitukshc20751chaitanya@gmail.com,HR,Team Meeting,2025-06-16,Agenda will be shared soon,True
 3,Akka,seethakarakshitha901@gmail.com,Sales,Quarterly Review,2025-06-17,Prepare your Q2 numbers,True
 4,Sneha Patel,sneha.test@gmail.com,Operations,Safety Drill,2025-06-18,Attendance is mandatory,True
-5,Karan Singh,karan.test@gmail.com,Finance,Budget Review,2025-06-19,Bring last month reports,True
-6,Anjali Nair,anjali.test@gmail.com,Marketing,Campaign Kickoff,2025-06-20,Creative ideas welcome,True
-7,Rohit Verma,rohit.test@gmail.com,IT,System Update,2025-06-21,Backup your files before,True
-8,Meena Iyer,meena.test@gmail.com,Admin,Policy Briefing,2025-06-22,New HR policy discussion,True
-9,Suresh Rao,suresh.test@gmail.com,Engineering,Code Review,2025-06-23,Submit PR before session,True
+5,Karan Singh,karan.test@gmail.com,Finance,Budget Review,2025-06-19,Bring last month reports,False
+6,Anjali Nair,anjali.test@gmail.com,Marketing,Campaign Kickoff,2025-06-20,Creative ideas welcome,False
+7,Rohit Verma,rohit.test@gmail.com,IT,System Update,2025-06-21,Backup your files before,False
+8,Meena Iyer,meena.test@gmail.com,Admin,Policy Briefing,2025-06-22,New HR policy discussion,False
+9,Suresh Rao,suresh.test@gmail.com,Engineering,Code Review,2025-06-23,Submit PR before session,False
 10,Pooja Gupta,pooja.test@gmail.com,HR,Onboarding,2025-06-24,Welcome new joiners event,True
