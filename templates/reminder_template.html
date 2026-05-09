@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 0; }
+    .container { max-width: 600px; margin: 20px auto; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+    .header { background: #1a237e; color: #ffffff; padding: 25px; text-align: center; }
+    .header h1 { margin: 0; font-size: 22px; letter-spacing: 1px; }
+    .status-bar { background: #ff5252; color: white; text-align: center; padding: 10px; font-weight: bold; text-transform: uppercase; font-size: 14px; }
+    .body { padding: 30px; color: #444; line-height: 1.6; }
+    .data-card { background: #f1f3f4; border-radius: 6px; padding: 20px; margin: 20px 0; border-left: 5px solid #1a237e; }
+    .insight-box { background: #e8f0fe; padding: 15px; border-radius: 4px; font-style: italic; color: #1967d2; }
+    .footer { background: #f1f3f4; padding: 20px; text-align: center; color: #777; font-size: 12px; }
+    .btn { display: inline-block; background: #1a237e; color: #ffffff !important; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="status-bar">🚨 Automated Critical Notification</div>
+    <div class="header">
+      <h1>SkyGuard Operations Intelligence</h1>
+    </div>
+    <div class="body">
+      <p>Attention <strong>{{ name }}</strong>,</p>
+      <p>The SkyGuard monitoring engine has flagged an upcoming event requiring immediate operational review based on your predefined safety thresholds.</p>
+      
+      <div class="data-card">
+        <strong>📌 Event:</strong> {{ event }}<br>
+        <strong>📅 Schedule:</strong> {{ event_date }}<br>
+        <strong>🏢 Department:</strong> {{ department }}<br>
+        <strong>⚠️ Priority:</strong> High / Mission-Critical
+      </div>
+
+      <div class="insight-box">
+        <strong>Predictive Insight:</strong> {{ custom_message }}
+      </div>
+
+      <p>Please review current telemetry data and confirm departmental readiness via the dashboard.</p>
+      <center><a href="#" class="btn">Confirm Readiness</a></center>
+    </div>
+    <div class="footer">
+      <p>This report was compiled via SkyGuard’s Pandas-driven analytics engine[cite: 340].</p>
+      <p>© 2026 SkyGuard Weather Systems | Confidential Operational Data</p>
+    </div>
+  </div>
+</body>
+</html>
