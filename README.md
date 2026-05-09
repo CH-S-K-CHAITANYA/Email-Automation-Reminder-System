@@ -549,19 +549,19 @@ Operational teams can:
 
 ### Dashboard Interface
 
-<img src="screenshots/dashboard.png" width="90%"/>
+<img src="imags/screenshots/dashboard.png" width="90%"/>
 
 <br/><br/>
 
 ### Contact Management Workspace
 
-<img src="screenshots/contacts.png" width="90%"/>
+<img src="images/screenshots/contacts.png" width="90%"/>
 
 <br/><br/>
 
 ### Campaign Reports & Status Tracking
 
-<img src="screenshots/reports.png" width="90%"/>
+<img src="images/screenshots/reports.png" width="90%"/>
 
 </div>
 
