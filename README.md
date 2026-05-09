@@ -549,7 +549,7 @@ Operational teams can:
 
 ### Dashboard Interface
 
-<img src="imags/screenshots/dashboard.png" width="90%"/>
+<img src="images/screenshots/dashboard.png" width="90%"/>
 
 <br/><br/>
 
