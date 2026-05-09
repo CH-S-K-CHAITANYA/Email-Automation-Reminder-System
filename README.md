@@ -171,15 +171,15 @@ This project addresses those challenges by combining automation, governance, rep
 
 ## 🏭 Industry Relevance
 
-| Industry | Operational Use Case | Equivalent Enterprise Workflow |
-|---|---|---|
-| **Human Resources** | Employee onboarding reminders | HR automation platforms |
-| **Corporate Training** | Certification & workshop reminders | LMS notification systems |
-| **Operations Management** | Internal communication campaigns | Enterprise messaging pipelines |
-| **Education** | Student reminder workflows | Academic notification systems |
-| **Customer Success** | Reminder and engagement emails | CRM campaign automation |
-| **Compliance & Governance** | Policy renewal notifications | Corporate compliance systems |
-| **Event Management** | RSVP and schedule reminders | Event communication platforms |
+| Industry                    | Operational Use Case               | Equivalent Enterprise Workflow |
+| --------------------------- | ---------------------------------- | ------------------------------ |
+| **Human Resources**         | Employee onboarding reminders      | HR automation platforms        |
+| **Corporate Training**      | Certification & workshop reminders | LMS notification systems       |
+| **Operations Management**   | Internal communication campaigns   | Enterprise messaging pipelines |
+| **Education**               | Student reminder workflows         | Academic notification systems  |
+| **Customer Success**        | Reminder and engagement emails     | CRM campaign automation        |
+| **Compliance & Governance** | Policy renewal notifications       | Corporate compliance systems   |
+| **Event Management**        | RSVP and schedule reminders        | Event communication platforms  |
 
 The operational workflow mirrors modern communication automation systems:
 
@@ -260,16 +260,16 @@ CSV Contacts → Validation → Template Rendering → SMTP Automation → Repor
 
 ## 🛠️ Tech Stack
 
-| Component | Technology | Purpose |
-|---|---|---|
-| Backend Engine | Python 3.10+ | Core orchestration and workflow execution |
-| Dashboard UI | Streamlit | Operational monitoring and campaign management |
-| Data Processing | Pandas | CSV ingestion and transformation |
-| Email Templating | Jinja2 | Dynamic HTML/text rendering |
-| Email Delivery | SMTP | Live campaign delivery |
-| Configuration | python-dotenv | Environment-based credential handling |
-| Logging | Python Logging | Campaign audit trails |
-| Reporting | CSV Generation | Structured operational reporting |
+| Component        | Technology     | Purpose                                        |
+| ---------------- | -------------- | ---------------------------------------------- |
+| Backend Engine   | Python 3.10+   | Core orchestration and workflow execution      |
+| Dashboard UI     | Streamlit      | Operational monitoring and campaign management |
+| Data Processing  | Pandas         | CSV ingestion and transformation               |
+| Email Templating | Jinja2         | Dynamic HTML/text rendering                    |
+| Email Delivery   | SMTP           | Live campaign delivery                         |
+| Configuration    | python-dotenv  | Environment-based credential handling          |
+| Logging          | Python Logging | Campaign audit trails                          |
+| Reporting        | CSV Generation | Structured operational reporting               |
 
 ---
 
@@ -304,12 +304,12 @@ R001,1,Training Reminder,09:00,pending
 
 ### Contact Governance Rules
 
-| Field | Purpose |
-|---|---|
-| `send_enabled=True` | Recipient included in campaign |
+| Field                | Purpose                          |
+| -------------------- | -------------------------------- |
+| `send_enabled=True`  | Recipient included in campaign   |
 | `send_enabled=False` | Recipient excluded from delivery |
-| Invalid email | Automatically rejected |
-| Dummy/test domain | Blocked before SMTP stage |
+| Invalid email        | Automatically rejected           |
+| Dummy/test domain    | Blocked before SMTP stage        |
 
 ---
 
@@ -333,32 +333,32 @@ Dynamic variables include:
 
 The email delivery workflow supports two operational modes:
 
-| Mode | Description |
-|---|---|
-| `Dry-Run` | Simulates delivery without SMTP transmission |
-| `Live Send` | Executes real SMTP delivery |
+| Mode        | Description                                  |
+| ----------- | -------------------------------------------- |
+| `Dry-Run`   | Simulates delivery without SMTP transmission |
+| `Live Send` | Executes real SMTP delivery                  |
 
 ### Email Validation Rules
 
 The system proactively rejects unsafe or dummy addresses.
 
-| Validation Rule | Example | Result |
-|---|---|---|
-| Valid structure | `user@gmail.com` | Accepted |
-| `.test` keyword | `user.test@gmail.com` | Rejected |
-| Dummy domains | `user@example.com` | Rejected |
-| Fake keywords | `dummy`, `sample`, `demo` | Rejected |
+| Validation Rule | Example                   | Result   |
+| --------------- | ------------------------- | -------- |
+| Valid structure | `user@gmail.com`          | Accepted |
+| `.test` keyword | `user.test@gmail.com`     | Rejected |
+| Dummy domains   | `user@example.com`        | Rejected |
+| Fake keywords   | `dummy`, `sample`, `demo` | Rejected |
 
 ### Status Tracking
 
 Every processed email is categorized into structured statuses:
 
-| Status | Meaning |
-|---|---|
+| Status      | Meaning                   |
+| ----------- | ------------------------- |
 | `simulated` | Processed in dry-run mode |
-| `sent` | SMTP delivery successful |
-| `rejected` | Blocked by validation |
-| `failed` | SMTP/runtime failure |
+| `sent`      | SMTP delivery successful  |
+| `rejected`  | Blocked by validation     |
+| `failed`    | SMTP/runtime failure      |
 
 ---
 
@@ -562,6 +562,12 @@ Operational teams can:
 ### Campaign Reports & Status Tracking
 
 <img src="images/screenshots/reports.png" width="90%"/>
+
+</div>
+
+### Mail Recieved By Customer
+
+<img src="images/screenshots/mail.png" width="90%"/>
 
 </div>
 
